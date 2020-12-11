@@ -18,6 +18,7 @@
 }
 .gallery-wrapper .img-wrap img{
     max-width: 80%;
+    max-height: 80%;
 }
 
 .gallery-wrapper .thumb-wrap{
@@ -39,7 +40,7 @@
     flex: 40% 0 0; */
     flex: none;
     width: 100%;
-    padding: 3%;
+    padding: 4% 8%;
 }
 .gallery-wrapper .thumb-wrap .thumb img{
     width: 100%;

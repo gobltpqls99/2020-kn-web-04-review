@@ -52,10 +52,21 @@ $('<div>A</div>').appendTo('.a').click() 	// return $('<div>A</div>')
 3. Attribute
 
 4. CSS
+	- Getter : css('속성')
+	- Setter : css('속성','값')
+	- Setter : css({'속성','값',.....})
+	- addClass('클래스명') removeClass('클래스명') toggleClass('클래스명')
+	- hasClass('클래스명')
 
 5. Dimension
+	- width() height()
+	- innerWidth() innerHeight()
+	- outerWidth() outerHeight()
+	- outerWidth(true) outerHeight(true)
+	- offset() => return {top : 200, left : 100}
+	- offset().top / offset().left
+	- position().top / position().left
+	- scrollTop()
 
 6. Event
-
-7. getter/setter
-	- html(), text(), css(), attr(), 
+	- click(), hover(), mouseover(), mouseenter(), mouseleave(), keyup(), keydown(), resize(), scroll().........
